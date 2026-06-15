@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "price": 399,
+      "publisher": "HarperCollins",
+      "issued": false
+    },
+    {
+      "id": "2",
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self Help",
+      "price": 499,
+      "publisher": "Penguin",
+      "issued": true
+    }
+  ]

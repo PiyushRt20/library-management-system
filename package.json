@@ -1,0 +1,26 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "this is a library management API backend for the managemnet of users and books in a library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiyushRt20/library-management-system.git"
+  },
+  "author": "Piyush Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiyushRt20/library-management-system/issues"
+  },
+  "homepage": "https://github.com/PiyushRt20/library-management-system#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
