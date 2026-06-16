@@ -1,4 +1,9 @@
-const express = require('express');
+const express = require("express");
+// const {users} = require('./data/users.json');
+
+//importing routes
+const usersRouter = require('./routes/users');
+const booksRouter = require('./routes/books');
 
 const app = express();
 
@@ -12,11 +17,8 @@ app.get('/', (req, res)=>{
     })
 })
 
-app.use((req, res)=>{
-    res.status(500).json({
-        message : "Not build yet"
-    })
-})
+app.use("/users", usersRouter);
+app.use("/books", booksRouter);
 
 app.listen(PORT, ()=>{
     console.log(`Server is running at port http://localhost:${PORT}`);
