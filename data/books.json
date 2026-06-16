@@ -1,20 +1,28 @@
-[
+{
+  "books": [
     {
       "id": "1",
-      "name": "The Alchemist",
-      "author": "Paulo Coelho",
-      "genre": "Fiction",
-      "price": 399,
-      "publisher": "HarperCollins",
-      "issued": false
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "price": "12.99",
+      "publisher": "Houghton Mifflin"
     },
     {
       "id": "2",
-      "name": "Atomic Habits",
-      "author": "James Clear",
-      "genre": "Self Help",
-      "price": 499,
-      "publisher": "Penguin",
-      "issued": true
+      "name": "The Land Before Time",
+      "author": "Alan Moore",
+      "genre": "Fantasy",
+      "price": "12.99",
+      "publisher": "Houghton Mifflin"
+    },
+    {
+      "id": "3",
+      "name": "The Land Before Time",
+      "author": "Alan Moore",
+      "genre": "Fantasy",
+      "price": "12.99",
+      "publisher": "Houghton Mifflin"
     }
   ]
+}
