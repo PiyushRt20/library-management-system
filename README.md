@@ -55,3 +55,20 @@ npm install nodemon --save-dev
 npm run dev
 
 to restore node_modules and package-lock.json  --> npm install / npm i 
+
+
+npm i mongoose
+npm i mongodb
+
+mongodb+srv://piyush_Rt20:<db_password>@cluster0.lfhhggd.mongodb.net/?appName=Cluster0
+
+npm i dotenv
+
+## MVC Architecture
+    >>M : Model (structure of the mongoDB database)
+    >>V : View (Frontend of the application)
+    >>C : Controllers (brain of the application which controls the flow of data between model and view)
+
+### DTO (Data Transfer Object)
+    
+        >> Data Transfer Object (DTO) is an object that carries data between processes. The main purpose of a DTO is to transfer data between software application subsystems. DTOs are often used in conjunction with data access objects to retrieve data from a database.
