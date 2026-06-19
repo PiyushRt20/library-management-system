@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/PiyushRt20/library-management-system#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
